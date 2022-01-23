@@ -14,5 +14,22 @@ module "ssh-key" {
 
 
 <!--- BEGIN_TF_DOCS --->
+## Providers
 
+| Name | Version |
+|------|---------|
+| local | n/a |
+| tls | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:-----:|
+| public\_ssh\_key | An ssh key set in the main variables of another module | `string` | `""` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| public\_ssh\_key | n/a |
 <!--- END_TF_DOCS --->
