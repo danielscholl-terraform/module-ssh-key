@@ -6,8 +6,7 @@ Module for creating a private SSH Key
 
 ```
 module "ssh-key" {
-  source         = "./modules/ssh-key"
-
+  source = "git::https://github.com/danielscholl-terraform/ssh-key?ref=v1.0.0"
 }
 
 ```
