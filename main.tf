@@ -26,4 +26,5 @@ output "public_ssh_key" {
 
 output "private_ssh_key" {
   value = var.public_ssh_key != "" ? "" : tls_private_key.ssh.private_key_pem 
+  sensitive = true
 }
