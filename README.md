@@ -30,5 +30,6 @@ module "ssh-key" {
 
 | Name | Description |
 |------|-------------|
+| private\_ssh\_key | n/a |
 | public\_ssh\_key | n/a |
 <!--- END_TF_DOCS --->
